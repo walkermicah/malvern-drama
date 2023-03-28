@@ -1,0 +1,5 @@
+@use './abstracts/mixins';
+
+.error {
+  @include mixins.app-layout;
+}
