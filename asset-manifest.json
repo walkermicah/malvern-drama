@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/malvern-drama/static/css/main.7d40331c.css",
-    "main.js": "/malvern-drama/static/js/main.b91ddfd8.js",
-    "static/media/flowers.jpg": "/malvern-drama/static/media/flowers.17d1e6920ce680aafd23.jpg",
-    "index.html": "/malvern-drama/index.html",
-    "main.7d40331c.css.map": "/malvern-drama/static/css/main.7d40331c.css.map",
-    "main.b91ddfd8.js.map": "/malvern-drama/static/js/main.b91ddfd8.js.map"
+    "main.css": "./static/css/main.9017cde8.css",
+    "main.js": "./static/js/main.b91ddfd8.js",
+    "static/media/flowers.jpg": "./static/media/flowers.17d1e6920ce680aafd23.jpg",
+    "index.html": "./index.html",
+    "main.9017cde8.css.map": "./static/css/main.9017cde8.css.map",
+    "main.b91ddfd8.js.map": "./static/js/main.b91ddfd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d40331c.css",
+    "static/css/main.9017cde8.css",
     "static/js/main.b91ddfd8.js"
   ]
 }
