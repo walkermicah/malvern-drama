@@ -14,7 +14,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
     </Route>
   ),
-  { basename: '/' }
+  { basename: '/malvern-drama' }
 );
 
 const App = () => {
