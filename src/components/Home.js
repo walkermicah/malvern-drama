@@ -19,7 +19,7 @@ const Home = () => {
         </h1>
       </div>
       <div className="home-info">
-        <p>A Malvern Drama Club production</p>
+        {/* <p>A Malvern Drama Club production</p> */}
         <Countdown />
       </div>
     </div>
