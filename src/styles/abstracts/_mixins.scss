@@ -3,9 +3,21 @@
   background-color: rgb(0, 0, 0);
   display: grid;
   justify-content: center;
+  align-items: center;
   padding: 1rem;
+
+  @include mobile() {
+    padding: 0rem;
+    align-items: stretch;
+  }
 
   &-container {
     background-color: white;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 31.25em) {
+    @content;
   }
 }
