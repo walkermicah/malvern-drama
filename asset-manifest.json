@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/malvern-drama/static/css/main.7d40331c.css",
+    "main.js": "/malvern-drama/static/js/main.188cb314.js",
+    "static/media/flowers.jpg": "/malvern-drama/static/media/flowers.17d1e6920ce680aafd23.jpg",
+    "index.html": "/malvern-drama/index.html",
+    "main.7d40331c.css.map": "/malvern-drama/static/css/main.7d40331c.css.map",
+    "main.188cb314.js.map": "/malvern-drama/static/js/main.188cb314.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d40331c.css",
+    "static/js/main.188cb314.js"
+  ]
+}
