@@ -1,2 +1,48 @@
 .home {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  text-align: center;
+  font-family: 'Merienda', cursive;
+
+  &-title {
+    display: grid;
+    background-image: url(../img/flowers.jpg);
+    background-size: contain;
+    padding: 0rem 3rem;
+
+    h1 {
+      font-size: 4.5rem;
+      text-transform: uppercase;
+      display: grid;
+      gap: 2rem;
+
+      span {
+        display: block;
+      }
+
+      .night,
+      .morning {
+        display: grid;
+        align-content: center;
+      }
+
+      .night {
+        color: white;
+      }
+    }
+  }
+
+  &-info {
+    background-color: rgb(114, 63, 137);
+    padding: 2rem 3rem;
+    display: grid;
+    gap: 2rem;
+    align-content: center;
+
+    p {
+      color: white;
+      font-size: 2rem;
+    }
+  }
 }

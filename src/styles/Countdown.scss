@@ -1,0 +1,22 @@
+.countdown {
+  border: 1px solid white;
+  display: flex;
+  gap: 1rem;
+  color: white;
+  padding: 0.5rem;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+
+  div {
+    display: grid;
+  }
+
+  .number {
+    font-size: 3rem;
+  }
+
+  .colon {
+    font-size: 3rem;
+  }
+}

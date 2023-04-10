@@ -1,9 +1,27 @@
+import Countdown from './Countdown';
 import '../styles/Home.scss';
 
 const Home = () => {
   return (
     <div className="home">
-      <h1>Good Night Desdemona, Good Morning Juliet</h1>
+      <div className="home-title">
+        <h1>
+          <span className="night">
+            <span>Good </span>
+            <span>Night</span>
+            <span>Desdemona</span>
+          </span>
+          <span className="morning">
+            <span>Good </span>
+            <span>Morning</span>
+            <span>Juliet</span>
+          </span>
+        </h1>
+      </div>
+      <div className="home-info">
+        <p>A Malvern Drama Club production</p>
+        <Countdown />
+      </div>
     </div>
   );
 };
