@@ -1,6 +1,6 @@
 {
   "name": "malvern-drama",
-  "homepage": "http://walkermicah.github.io/malvern-drama",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
