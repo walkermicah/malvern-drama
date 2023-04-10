@@ -13,8 +13,7 @@ const router = createHashRouter(
     <Route path="/" element={<RootLayout />} errorElement={<Error />}>
       <Route index element={<Home />} />
     </Route>
-  ),
-  { basename: '/malvern-drama' }
+  )
 );
 
 const App = () => {
