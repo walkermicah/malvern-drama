@@ -10,12 +10,11 @@ import Error from './components/Error';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <>
-      <Route path="/" element={<RootLayout />} errorElement={<Error />}>
-        <Route index element={<Home />} />
-      </Route>
-    </>
-  )
+    <Route path="/" element={<RootLayout />} errorElement={<Error />}>
+      <Route index element={<Home />} />
+    </Route>
+  ),
+  { basename: '/' }
 );
 
 const App = () => {
