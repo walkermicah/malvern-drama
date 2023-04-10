@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className="home-info">
         <p>A Malvern Drama Club production</p>
-        {/* <Countdown /> */}
+        <Countdown />
       </div>
     </div>
   );
