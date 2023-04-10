@@ -1,5 +1,5 @@
 import {
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
   Route,
@@ -8,7 +8,7 @@ import Home from './components/Home';
 import RootLayout from './components/RootLayout';
 import Error from './components/Error';
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />} errorElement={<Error />}>
       <Route index element={<Home />} />
