@@ -13,6 +13,7 @@ html {
 body {
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
+  background-color: black;
 }
 
 input,
@@ -20,8 +21,4 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-main {
-  height: 100%;
 }

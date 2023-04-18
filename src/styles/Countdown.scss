@@ -1,3 +1,5 @@
+@use './abstracts/mixins';
+
 .countdown {
   border: 1px solid white;
   display: flex;
@@ -7,6 +9,8 @@
   justify-content: center;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+  padding: 2rem 3rem;
+  border: none;
 
   div {
     display: grid;
@@ -18,5 +22,9 @@
 
   .colon {
     font-size: 3rem;
+  }
+
+  @include mixins.mobile() {
+    border: 1px solid white;
   }
 }

@@ -12,12 +12,20 @@
   }
 
   &-container {
+    border: 1px solid white;
     background-color: white;
+
+    @include mobile() {
+      display: grid;
+      grid-template-rows: min-content 1fr;
+      width: 100vw;
+      border: none;
+    }
   }
 }
 
 @mixin mobile {
-  @media (max-width: 31.25em) {
+  @media (max-width: 56.25em) {
     @content;
   }
 }
