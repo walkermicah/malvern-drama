@@ -2,4 +2,32 @@
 
 .error {
   @include mixins.app-layout;
+
+  .error-container {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 1rem;
+    text-align: center;
+
+    h2 {
+      font-size: 6rem;
+      font-family: 'Merienda', cursive;
+    }
+
+    button {
+      border: 1px solid white;
+      background-color: inherit;
+      color: inherit;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      font-family: 'Lato', sans-serif;
+      cursor: pointer;
+    }
+  }
 }
