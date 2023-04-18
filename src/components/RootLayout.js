@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router-dom';
+import Header from './Header';
 import '../styles/RootLayout.scss';
 
 const RootLayout = () => {
   return (
     <div className="root-layout">
       <div className="root-layout-container">
-        <header>
-          <nav></nav>
-        </header>
+        <Header />
         <main>
           <Outlet />
         </main>
