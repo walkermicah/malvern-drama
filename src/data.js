@@ -106,7 +106,7 @@ const cast = [
   },
   {
     name: 'Sloane Climie',
-    role: 'Ghost',
+    role: 'Ghost and Mistress Burnbottom',
     grade: '11',
     q1: 'Being goofy backstage during rehearsals and being carpenters for the set pieces (Shout out Ana and Andrew). ',
     q2: 'I love performing and being on stage and love it even more when with friends. I also thoroughly enjoy making people laugh.',
@@ -286,7 +286,7 @@ const crew = [
   {
     name: 'Dalia Shulman',
     role: 'Prop master',
-    grade: '22',
+    grade: '11',
     q1: 'I made a really funny joke one time. Lots of people laughed.',
     q2: `That's a really good question`,
     img: dalia,
