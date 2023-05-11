@@ -19,6 +19,7 @@ const Countdown = () => {
       const days = Math.floor(distance / (1000 * 60 * 60 * 24))
         .toString()
         .padStart(2, '0');
+
       const hours = Math.floor(
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       )
@@ -31,10 +32,10 @@ const Countdown = () => {
         .toString()
         .padStart(2, '0');
 
-      setDays(days);
-      setHours(hours);
-      setMinutes(minutes);
-      setSeconds(seconds);
+      setDays(days > 0 ? days : 0);
+      setHours(hours > 0 ? hours : 0);
+      setMinutes(minutes > 0 ? minutes : 0);
+      setSeconds(seconds > 0 ? seconds : 0);
     };
 
     const countdown = setInterval(tick, 1000);

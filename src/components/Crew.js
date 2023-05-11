@@ -1,0 +1,21 @@
+import Bio from './Bio';
+import { crew } from '../data';
+
+function Crew() {
+  return (
+    <div className="crew">
+      {crew.map((c) => (
+        <Bio
+          img={c.img}
+          name={c.name}
+          role={c.role}
+          grade={c.grade}
+          q1={c.q1}
+          q2={c.q2}
+        />
+      ))}
+    </div>
+  );
+}
+
+export default Crew;

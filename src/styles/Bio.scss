@@ -1,0 +1,40 @@
+.bio {
+  display: flex;
+  gap: 1rem;
+
+  .info {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+
+    .name {
+      font-size: 1.5rem;
+    }
+
+    .details {
+      font-size: 1.25rem;
+    }
+
+    img {
+      width: 14rem;
+      height: 20rem;
+      border: 1px solid white;
+    }
+  }
+
+  .questions {
+    display: grid;
+    align-content: start;
+    gap: 2rem;
+
+    .question {
+      .q {
+        font-size: 1.5rem;
+      }
+
+      .a {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
