@@ -6,9 +6,11 @@ function Bio(props) {
     <div className="bio">
       <div className="info">
         <img src={img} alt={name} />
-        <p className="name">{name}</p>
-        <p className="details">{role}</p>
-        <p className="details">Grade {grade}</p>
+        <div>
+          <p className="name">{name}</p>
+          <p className="details">{role}</p>
+          <p className="details">Grade {grade}</p>
+        </div>
       </div>
       <div className="questions">
         <div className="question">
