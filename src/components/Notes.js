@@ -7,15 +7,16 @@ function Notes() {
       <h2>Director's Notes</h2>
       <p>
         It's easy to live a life without curiosity. To spend years, never
-        feeling the need to search for something or to never ponder what if? As
-        one ages, life unfortunately becomes less intriguing and less worthy of
-        investigation. In time, we become far too comfortable, our sense of
-        wonder tends to wane, and sometimes we even become afraid of curiosity.
-        But a lass our dear audience, not our heroine, Constance Ledbelly.
-        Despite what her name ironically implies, her courage to take this
-        journey and to ask new questions about stories so old they're ubiquitous
-        within Western culture, is what makes her story worthy to tell. It's
-        also why I love this play and why I chose it as our Spring production.
+        feeling the need to search for something or to never ponder{' '}
+        <i>what if?</i> As one ages, life unfortunately becomes less intriguing
+        and less worthy of investigation. In time, we become far too
+        comfortable, our sense of wonder tends to wane, and sometimes we even
+        become afraid of curiosity. But <i>a lass</i> our dear audience, not our
+        heroine, Constance Ledbelly. Despite what her name ironically implies,
+        her courage to take this journey and to ask new questions about stories
+        so old they're ubiquitous within Western culture, is what makes her
+        story worthy to tell. It's also why I love this play and why I chose it
+        as our Spring production.
       </p>
       <p>
         While working on this project, I couldn't help but think about how

@@ -24,7 +24,7 @@ function Header() {
       )}
       {navVisible && (
         <nav>
-          <div class="links">
+          <div className="links">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/cast">Cast</NavLink>
             <NavLink to="/crew">Crew</NavLink>
