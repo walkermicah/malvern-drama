@@ -10,7 +10,7 @@ const Countdown = () => {
 
   useEffect(() => {
     const tick = () => {
-      const countDownDate = new Date('May 11, 2023 19:00:00').getTime();
+      const countDownDate = new Date('May 12, 2023 19:00:00').getTime();
 
       const now = new Date().getTime();
 
